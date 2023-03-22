@@ -33,3 +33,6 @@ Other notes:
 - Some of these concepts are inspired by Gitlab autodevops, but modified to fit trunk
   based development branching models and include mono repos that may have multiple images built or
   multiple deployment targets.
+- There are a ton of other options and refinements that would be done in real life CI/CD, tuned to
+  specific needs of the project. But this gives a generalized template that can be extended
+  and configured as needed.
