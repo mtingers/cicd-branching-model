@@ -34,5 +34,5 @@ Other notes:
   based development branching models and include mono repos that may have multiple images built or
   multiple deployment targets.
 - There are a ton of other options and refinements that would be done in real life CI/CD, tuned to
-  specific needs of the project. But this gives a generalized template that can be extended
-  and configured as needed.
+  specific needs of the project (especially for multi-app mono-repos). But this gives a generalized
+  starting point that can be extended as needed.
