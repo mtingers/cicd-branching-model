@@ -7,7 +7,7 @@ A brain dump on CI/CD and how it relates to different Git branching workflows.
 References:
 - [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com)
 - [How Microsoft develops with DevOps](https://learn.microsoft.com/en-us/devops/develop/how-microsoft-develops-devops)
-
+- [Continuous deployment or continuous delivery](https://about.gitlab.com/topics/continuous-delivery/)
 
 Overview:
 - The `main` or `master` branch is considered the `staging` branch (aka dev branch).
@@ -23,7 +23,8 @@ Overview:
   Once the `review` environment is deployed, the pipeline pauses.
 - Upon reviewing the `review` environment (tests, log checks, etc), the `production` pipeline can
   continue on and manually release to the `production` target cluster.
-
+- `staging` fits more in the continuous deployment classification since it automatically deployed.
+- `production` is closer to continuous delivery since it is manually deployed.
 
 ![Trunk CICD](/trunk-cicd.png)
 
