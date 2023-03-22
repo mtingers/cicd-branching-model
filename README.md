@@ -26,3 +26,8 @@ Overview:
 
 
 ![Trunk CICD](/trunk-cicd.png)
+
+
+Other notes:
+- Some of these concepts are inspired by the Gitlab autodevops pipelines, but modified to fit trunk
+  based development branching models and include mono repos.
