@@ -30,4 +30,5 @@ Overview:
 
 Other notes:
 - Some of these concepts are inspired by the Gitlab autodevops pipelines, but modified to fit trunk
-  based development branching models and include mono repos.
+  based development branching models and include mono repos that may have multiple images built or
+  multiple deployment targets.
