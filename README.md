@@ -12,7 +12,7 @@ References:
 Overview:
 - The `main` or `master` branch is considered the `staging` branch (aka dev branch).
 - The `main` or `master` branch is classified as the `staging` CI/CD pipeline.
-- Release branches are classified as "review" and `production` CI/CD pipelines.
+- Release branches are classified as `review` and `production` CI/CD pipelines.
 - Release branches can follow a branch naming convention like `release/1.0.0`.
 - Other branches are ignored from CI/CD and should be short lived (often only locally, rebased, etc).
 - Commits pushed to `origin` `main`/`master` trigger the `staging` CI/CD pipeline automatically.
